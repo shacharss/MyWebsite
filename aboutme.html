@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styling.css">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Importing the social media icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,200&family=Nunito:wght@300;600&family=Playfair+Display:wght@400;600;900&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <!-- Importing some google fonts -->
+    <script src="Scripting.js" type="text/javascript"></script>
+    <!-- Importing Javascript -->
+</head>
+
+<body id="AboutMe">
+
+<div class="header">
+    <a href="index.html" class="Title">Shachar's Website</a>
+    <div class="header-right">
+        <a href="index.html">Home</a>
+        <a class="active" href="#">About Me</a>
+        <a href="contactme.html" id="Contact">Contact Me</a>
+    </div>
+</div>
+
+<div id="AboutMeMain">
+    <div id="left">
+        <div class="Picture" id="left1">
+            <img src="Images/Hulk.jpg" alt="Picture of me imitating Hulk">
+        </div>
+        <div class="Picture" id="left2">
+            <img src="Images/Graduation.jpg" alt="Graduation picture">
+        </div>
+        <div class="Picture" id="left3">
+            <img src="Images/Park.jpg" alt="Me eating in the park">
+        </div>
+        <div class="Picture" id="left4">
+            <img src="Images/Arizona.jpg" alt="Family and me in Arizona">
+        </div>
+    </div>
+    <div id="middle">
+        <div class="ScrollButtons">
+            <button onclick="scrollToTop('BackgroundHeader')">Background</button>
+            <button onclick="scrollToTop('EducationHeader')">Education</button>
+            <button onclick="scrollToTop('WorkHeader')">Volunteer/Work</button>
+            <button onclick="scrollToTop('HobbiesHeader')">Hobbies</button>
+        </div>
+        <h1 id="BackgroundHeader">Background</h1>
+        <div class="Paragraph" id="Home">
+            <p>
+                I was born in Israel, and lived in Rehovot with my parents for the first few years of my childhood.
+                At the age of five, my father had to be relocated to California for work, and so I moved for the first
+                time. Initially, going to elementary school was tough, as I was unfamiliar with American culture,
+                policies, and only knew Hebrew. However, with time I quickly resolved these issues. By the end of
+                fifth grade, I had plenty of friends, knew English better than Hebrew, and graduated from elementary
+                school. However, at the same time, my dad's work relocated him again. Thus, my family moved from
+                California to Massachusetts, and I once again had to reengage in the culture and the community. This
+                time however, I also had to learn to adapt to the weather, as the first time I saw snow was in
+                Massachusetts. It was around this time that I also first developed an interest in computer science. In
+                8th grade, I took a course on making games with Scratch, and the same summer I took a summer course in
+                basic C++. However, it was in 11th grade when I really became engrossed in computer science. I took a
+                semester long course on C++, and in 12th grade took AP Computer Science, an advanced year-long Java course.
+                By the end of high school, I decided to pursue a degree in computer science, and am now doing so at
+                Reichman University.
+            </p>
+        </div>
+        <h1 id="EducationHeader">Education</h1>
+        <div class="List">
+            <ol>
+                <li>Nimitz Elementary School, California: 2007-2013</li>
+                <li>Diamond Middle School, Massachusetts: 2013-2016</li>
+                <li>Lexington High School, Massachusetts: 2016-2020</li>
+                <li>Reichman University (Computer Science Degree), Israel: 2020-2023</li>
+            </ol>
+        </div>
+        <h1 id="WorkHeader">Volunteer/Work</h1>
+        <div class="List">
+            <ul>
+                <li>Volunteered at Lexplorations Summer Camp, June-July, 2018</li>
+                <li>Worked as Camp counselor at Chabad of Lexington Summer Camp, June-August, 2019</li>
+                <li>Freelancer, website usability tester, 2016-Present</li>
+            </ul>
+        </div>
+        <h1 id="HobbiesHeader">Hobbies</h1>
+        <div class="List">
+            <ul>
+                <li><b STYLE="font-size: 23px">Tennis:</b> I've been playing tennis for as long as I can remember.
+                Throughout my childhood, I've played mostly casually with friends and family. In high school, I played
+                some competitive league-style tennis.</li>
+                <li><b STYLE="font-size: 23px">Movies:</b> I love watching movies, alone and with others. I try to watch
+                a new movie with friends at least once a week. My favorite genres are Fantasy and Horror, and my all-time
+                favorite movies are Peter Jackson's 'Lord of the Rings'.</li>
+                <li><b STYLE="font-size: 23px">Video Games:</b> Similarly to tennis, I've played video games for the majority
+                of my life. Ever since my dad bought the household a PS3 when I was 8, I've played lots of games across every platform
+                I could get my hands on. My favorite genre of video games is RPG Adventure games, and my all-time favorite
+                video game is 'Dark Souls'.</li>
+            </ul>
+        </div>
+    </div>
+    <div id="right">
+        <div class="Picture" id="right1">
+            <img src="Images/Family.jpg" alt="Family picture over Horseshoe Bend">
+        </div>
+        <div class="Picture" id="right2">
+            <img src="Images/Braces!.jpg" alt="Picture of me with braces">
+        </div>
+        <div class="Picture" id="right3">
+            <img src="Images/TestPeriod.jpg" alt="Friends and I celebrating finishing Data Structures">
+        </div>
+        <div class="Picture" id="right4">
+            <img src="Images/Friends.JPG" alt="Picture of friends and me">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <a href="https://www.facebook.com/shacharsss" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/shachar-weinmann-17190b207/" target="_blank" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/channel/UCR2vvXRdrmPWPO_XoACsBnA" target="_blank" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/sha_ch_ar.weinmann/" target="_blank" class="fa fa-instagram"></a>
+    <i id="HomeDiscord" class="fa fa-discord tooltip" onclick="copyDiscordUsername()"><span class="tooltipText" id="tooltip">Copy ShackMan#4507 to clipboard</span></i>
+</footer>
+
+</body>
+</html>

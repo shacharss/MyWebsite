@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styling.css">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Importing the social media icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,200&family=Nunito:wght@300;600&family=Playfair+Display:wght@400;600;900&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <!-- Importing some google fonts -->
+    <script src="Scripting.js" type="text/javascript"></script>
+    <!-- Importing Javascript -->
+</head>
+<body id="contactMe">
+
+<div class="header">
+    <a href="index.html" class="Title">Shachar's Website</a>
+    <div class="header-right">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a class="active" href="#" id="Contact">Contact Me</a>
+    </div>
+</div>
+
+
+<p id="thanks">Thanks for looking through my site, if you wish to contact me you can do so in the following ways</p><br>
+<hr class="ContactMeLine" id="bottom">
+
+<div id="ContactMeMain" STYLE="width: 100%">
+
+    <div id="number">
+        <p>You can reach out to me via WhatsApp by clicking</p><br>
+        <a href="https://wa.me/972505326331" target="_blank"><b>Here</b></a>
+        <hr class="ContactMeLine" id="telBreak">
+        <p id="tel">Or call me directly at: </p>
+        <a href="tel:972505326331"><b>+972-50-532-6331</b></a>
+    </div>
+
+    <div id="email">
+        <p id="fill">Or fill out this small form to contact me via email</p>
+        <form action="#" onsubmit="makeEmail()">
+            <label for="Subject">Subject:</label><input type="text" id="Subject" required>
+            <label for="Message" id="textarea">Message:</label><textarea id="Message" rows="8" maxlength="3000" style="resize: none" required></textarea>
+            <input type="Submit" value="Submit (Will open your Email Application)" id="submit"><br>
+        </form>
+    </div>
+
+    <div id="picture">
+        <img src="Images/Portrait.jpg" alt="Another Picture of me">
+    </div>
+
+</div>
+
+<footer>
+    <a href="https://www.facebook.com/shacharsss" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/shachar-weinmann-17190b207/" target="_blank" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/channel/UCR2vvXRdrmPWPO_XoACsBnA" target="_blank" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/sha_ch_ar.weinmann/" target="_blank" class="fa fa-instagram"></a>
+    <i id="HomeDiscord" class="fa fa-discord tooltip" onclick="copyDiscordUsername()"><span class="tooltipText" id="tooltip">Copy ShackMan#4507 to clipboard</span></i>
+</footer>
+
+</body>
+</html>
