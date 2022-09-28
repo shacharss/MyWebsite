@@ -48,6 +48,9 @@ div.header div.header-right {
     margin: fill;
 }
 
+#body {
+    position: fixed;
+}
 
 #HomePicture img{
     float: left;
@@ -132,7 +135,7 @@ div#middle div.Paragraph {
 }
 
 #Skills {
-    transform: translateY(-15px);
+    transform: translateY(-30px);
 }
 footer {
     background: rgb(201, 197, 186);
