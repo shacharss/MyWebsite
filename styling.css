@@ -54,7 +54,8 @@ div.header div.header-right {
 
 #HomePicture img{
     float: left;
-    width: 400px;
+    width: 26%;
+    max-width: 26%;
     height: 559px;
     padding-top: 0;
 }
